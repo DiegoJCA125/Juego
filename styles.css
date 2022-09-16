@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Press Start 2P', cursive;
+    height: 520px;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/503/189/157/pokemon-video-games-pixel-art-pixels-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#seleccionar-mascota{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    color: black;
+    font-size: 36px;
+}
+
+.subtitulo{
+    color: black;
+    font-size: 24px;
+}
+.tarjetas{
+    display: flex;
+    gap: 10px;
+}
+
+.tarjeta-de-pokemon{
+    width: 260px;
+    height: 150px;
+    background: transparent;
+    padding:10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.tarjeta-de-pokemon img{
+    width: 100px;
+}
+
+input{
+    display: none;
+}
+
+.boton-de-pokemon{
+    width:200px;
+    height:60px;
+    background: transparent;
+    padding:5px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+element.style{
+    height: 200vh;
+    }
+    
