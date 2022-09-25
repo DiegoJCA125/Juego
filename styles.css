@@ -3,11 +3,13 @@
 body {
     font-family: 'Fredoka One', cursive;
     font-family: 'Press Start 2P', cursive;
-    height: 520px;
+    height: 850px;
     background-image: url(https://p4.wallpaperbetter.com/wallpaper/503/189/157/pokemon-video-games-pixel-art-pixels-wallpaper-preview.jpg);
     background-size: cover;
+    background-size: 10 rem;
     background-repeat: no-repeat;
     background-position: center center;
+    background-attachment: scroll;
 }
 #seleccionar-mascota{
     display: flex;
@@ -16,12 +18,12 @@ body {
 }
 
 .titulo{
-    color: black;
+    color: yellow;
     font-size: 36px;
 }
 
 .subtitulo{
-    color: black;
+    color: yellow;
     font-size: 24px;
 }
 .tarjetas{
@@ -41,7 +43,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
 }
 
 .tarjeta-de-pokemon img{
@@ -63,9 +65,53 @@ input{
     border-radius: 20px;
     color: white;
     font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
 }
 
 element.style{
     height: 200vh;
-    }
-    
+}
+
+.tarjeta-de-pokemon:hover {
+    cursor: pointer;
+}
+
+#seleccionar-ataque{
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataques{
+    background-color: transparent;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: black;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+
+#mensajes{
+    width: 1000px;
+    background: transparent;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#boton-reiniciar{
+    border-bottom: 40px;
+    background-color: transparent;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+    display: center;
+    border: 2px solid white;
+    align-items: center;
+}
